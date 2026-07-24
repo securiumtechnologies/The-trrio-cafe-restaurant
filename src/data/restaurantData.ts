@@ -5,6 +5,21 @@ import signatureDish from '../assets/images/trrio_signature_dish_1784866209204.j
 import refreshingDrinks from '../assets/images/trrio_refreshing_drinks_1784866220419.jpg';
 import instaPoster from '../assets/images/trrio_insta_poster_1784866233280.jpg';
 
+import kolkataFishFry from '../assets/images/kolkata_fish_fry_1784867344806.jpg';
+import muttonKosha from '../assets/images/mutton_kosha_1784867356329.jpg';
+import drumsOfHeaven from '../assets/images/drums_of_heaven_1784867373290.jpg';
+import paneerTikkaMasala from '../assets/images/paneer_tikka_masala_1784867384874.jpg';
+import prawnMalaiCurry from '../assets/images/prawn_malai_curry_1784867396679.jpg';
+
+import cheeseGarlicBread from '../assets/images/cheese_garlic_bread_1784867619804.jpg';
+import dalMakhaniJeeraRice from '../assets/images/dal_makhani_jeera_rice_1784867631634.jpg';
+import cornCheeseBalls from '../assets/images/corn_cheese_balls_1784867641867.jpg';
+import vegPrimaveraPasta from '../assets/images/veg_primavera_pasta_1784867652641.jpg';
+import mushroomDuplex from '../assets/images/mushroom_duplex_1784867663411.jpg';
+import malaiKofta from '../assets/images/malai_kofta_1784867674816.jpg';
+import butterNaanRoti from '../assets/images/butter_naan_roti_1784867686286.jpg';
+import butterChickenGravy from '../assets/images/butter_chicken_gravy_1784867695918.jpg';
+
 export const BUSINESS_INFO = {
   name: 'The TRRio Cafe & Restaurant',
   bengaliName: 'দি তৃতীয় ক্যাফে & রেস্টুরেন্ট',
@@ -54,7 +69,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isPopular: true,
     isSignature: true,
     price: '₹210',
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'veg-2',
@@ -66,7 +81,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isPopular: true,
     isSignature: true,
     price: '₹280',
-    image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop'
+    image: paneerTikkaMasala
   },
   {
     id: 'veg-3',
@@ -77,7 +92,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Artisanal loaf baked with garlic herb butter and melted mozzarella cheese.',
     isPopular: false,
     price: '₹160',
-    image: 'https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?q=80&w=800&auto=format&fit=crop'
+    image: cheeseGarlicBread
   },
   {
     id: 'veg-4',
@@ -110,7 +125,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Classic North Indian rich gravy with tender cottage cheese cooked in butter and cashew sauce.',
     isPopular: true,
     price: '₹260',
-    image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'veg-7',
@@ -133,7 +148,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isPopular: true,
     isSignature: true,
     price: '₹240',
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop'
+    image: dalMakhaniJeeraRice
   },
   {
     id: 'veg-9',
@@ -166,7 +181,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Deep-fried golden croquettes filled with sweet corn and oozing processed cheese.',
     isPopular: false,
     price: '₹190',
-    image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop'
+    image: cornCheeseBalls
   },
   {
     id: 'veg-12',
@@ -177,7 +192,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Penne pasta tossed in a creamy parmesan basil sauce with seasonal grilled vegetables.',
     isPopular: false,
     price: '₹230',
-    image: 'https://images.unsplash.com/photo-1621996346565-e3d5d6281895?q=80&w=800&auto=format&fit=crop'
+    image: vegPrimaveraPasta
   },
   {
     id: 'veg-13',
@@ -188,7 +203,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Stuffed mushroom caps with spicy cheese filling, golden crumb fried to perfection.',
     isPopular: false,
     price: '₹220',
-    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800&auto=format&fit=crop'
+    image: mushroomDuplex
   },
   {
     id: 'veg-14',
@@ -199,7 +214,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Melt-in-mouth cottage cheese and potato dumplings in a rich cardamom-infused cream gravy.',
     isPopular: true,
     price: '₹270',
-    image: 'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=800&auto=format&fit=crop'
+    image: malaiKofta
   },
   {
     id: 'veg-15',
@@ -210,7 +225,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Freshly baked in clay tandoor oven brushed with pure white butter.',
     isPopular: false,
     price: '₹50',
-    image: 'https://images.unsplash.com/photo-1626074353765-517a681e40be?q=80&w=800&auto=format&fit=crop'
+    image: butterNaanRoti
   },
 
   // --- FOOD -> NON-VEG ---
@@ -236,7 +251,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isPopular: true,
     isSignature: true,
     price: '₹280',
-    image: 'https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop'
+    image: drumsOfHeaven
   },
   {
     id: 'nonveg-3',
@@ -248,7 +263,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isPopular: true,
     isSignature: true,
     price: '₹390',
-    image: 'https://images.unsplash.com/photo-1545247181-516773cae754?q=80&w=800&auto=format&fit=crop'
+    image: muttonKosha
   },
   {
     id: 'nonveg-4',
@@ -282,7 +297,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isPopular: true,
     isSignature: true,
     price: '₹240',
-    image: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?q=80&w=800&auto=format&fit=crop'
+    image: kolkataFishFry
   },
   {
     id: 'nonveg-7',
@@ -304,7 +319,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Classic Kashmiri tender mutton braised in an aromatic fennel-cardamom gravy.',
     isPopular: false,
     price: '₹410',
-    image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1545247181-516773cae754?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'nonveg-9',
@@ -315,7 +330,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Traditional Bengali Dimer Devil - hard-boiled eggs wrapped in spiced minced meat, golden fried.',
     isPopular: false,
     price: '₹160',
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: 'nonveg-10',
@@ -326,7 +341,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Shredded tandoori chicken simmered in a smooth velvet cream and tomato kasuri methi gravy.',
     isPopular: true,
     price: '₹310',
-    image: 'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop'
+    image: butterChickenGravy
   },
   {
     id: 'nonveg-11',
@@ -349,7 +364,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isPopular: true,
     isSignature: true,
     price: '₹420',
-    image: 'https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=800&auto=format&fit=crop'
+    image: prawnMalaiCurry
   },
 
   // --- BEVERAGES ---
