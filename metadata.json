@@ -1,0 +1,6 @@
+{
+  "name": "The TRRio Cafe & Restaurant",
+  "description": "Bespoke website for The TRRio Cafe & Restaurant in Salkia, Howrah, West Bengal featuring authentic food & beverages, table reservations, location & contact details, and Instagram feed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
