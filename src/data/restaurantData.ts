@@ -20,6 +20,12 @@ import malaiKofta from '../assets/images/malai_kofta_1784867674816.jpg';
 import butterNaanRoti from '../assets/images/butter_naan_roti_1784867686286.jpg';
 import butterChickenGravy from '../assets/images/butter_chicken_gravy_1784867695918.jpg';
 
+import blueLagoonMocktail from '../assets/images/blue_lagoon_mocktail_1784868253521.jpg';
+import kitkatThickShake from '../assets/images/kitkat_thick_shake_1784868265201.jpg';
+import roseFalooda from '../assets/images/rose_falooda_1784868276610.jpg';
+import coldCoffeeIcecream from '../assets/images/cold_coffee_icecream_1784868295279.jpg';
+import virginMojitoMocktail from '../assets/images/virgin_mojito_mocktail_1784868471701.jpg';
+
 export const BUSINESS_INFO = {
   name: 'The TRRio Cafe & Restaurant',
   bengaliName: 'দি তৃতীয় ক্যাফে & রেস্টুরেন্ট',
@@ -388,7 +394,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isPopular: true,
     isSignature: true,
     price: '₹170',
-    image: refreshingDrinks
+    image: coldCoffeeIcecream
   },
   {
     id: 'bev-3',
@@ -399,7 +405,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isPopular: true,
     isSignature: true,
     price: '₹160',
-    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop'
+    image: blueLagoonMocktail
   },
   {
     id: 'bev-4',
@@ -409,7 +415,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Classic muddled fresh mint leaves, lime wedges, simple syrup, topped with club soda.',
     isPopular: true,
     price: '₹140',
-    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop'
+    image: virginMojitoMocktail
   },
   {
     id: 'bev-5',
@@ -449,7 +455,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Blended KitKat wafers with rich chocolate ice cream and milk topped with crispy KitKat bars.',
     isPopular: true,
     price: '₹190',
-    image: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?q=80&w=800&auto=format&fit=crop'
+    image: kitkatThickShake
   },
   {
     id: 'bev-9',
@@ -469,7 +475,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Aromatic rose syrup, basil seeds, falooda noodles, chilled milk topped with ice cream and nuts.',
     isPopular: true,
     price: '₹180',
-    image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=800&auto=format&fit=crop'
+    image: roseFalooda
   }
 ];
 
